@@ -6,13 +6,10 @@
         <groupId>com.example</groupId>
         <artifactId>parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
+        <!--坐标必须和parent坐标保持一致-->
         <relativePath>../parent</relativePath>
     </parent>
-    <groupId>com.example</groupId>
     <artifactId>base</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>base</name>
-    <description>base</description>
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
